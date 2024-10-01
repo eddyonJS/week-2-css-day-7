@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(216, 201, 201);
+}
+.align-center {
+    /*
+    text-align: left;
+    text-align: right;    */
+    text-align: center;
+    background-color:lightcoral;
+    color:rgb(17, 11, 11);
+}
+
+.align-last-line {
+
+    text-align-last: center;
+}
+
+.colors { 
+    font-size: 40px;
+    background-color: black;
+    text-align: center;
+    color: rgb(119, 160, 37);
+    color: #000 ;
+    color: #ffffff;
+    color: #fff;
+    color: #5e93c5;
+
+
+}
+/* sequential manner followed in text decoration */
+.textdeco {
+    /* text line properties */
+    /* text-decoration-line: line-through; */
+    /* text-decoration-line: underline; */
+    text-decoration-line: overline;
+    /* text-decoration-line: none; */
+
+    /* text line color properties  */
+    text-decoration-color: crimson ;
+   
+    /* text line style properties */
+    /* text-decoration-style: solid;
+    text-decoration-style: dotted;
+    text-decoration-style: double;
+    text-decoration-style:dashed; */
+    text-decoration-style: wavy ;
+
+
+    /* letter spacing, word spacing... */
+
+
+
+    /* text line thickness properties  */
+    text-decoration-thickness: 2px;
+    }
+    
+    /* this is ndoing it directly the sequential manner is stated above of what values would be required example 1 has break the direct method and this example combines it all */
+.text-deco-direct {
+
+    text-decoration: underline blue dotted 2px;
+    }
+
